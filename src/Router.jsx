@@ -1,4 +1,4 @@
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 import RootLayout from "./pages/RootLayout";
 import Home from "./pages/Home";
 import ItemsLayout from "./pages/items/Layout"
@@ -8,7 +8,7 @@ import ShowItem from "./pages/items/ShowItem";
 import UpdateItem from "./pages/items/UpdateItem";
 
 
-const router = HashRouter([
+const router = BrowserRouter([
   {
     path: '/stock-items/',
     element: <RootLayout/>,

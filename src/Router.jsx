@@ -10,7 +10,7 @@ import UpdateItem from "./pages/items/UpdateItem";
 
 const router = HashRouter([
   {
-    path: '/',
+    path: '/stock-items/',
     element: <RootLayout/>,
     children: [
       {index: true,
